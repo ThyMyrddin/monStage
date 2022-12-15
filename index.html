@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <title>Document</title>
+    
+</head>
+<style>
+    @font-face
+ {
+    font-family:'philo';
+    src: url('polices-1/Philosopher-Regular.ttf');
+}
+body{
+    background-color:#d9dfe4;
+    background-repeat:no-repeat;
+}
+#logo{
+    background-color: none;
+    padding-right: 130px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width:500px;
+    height: 170px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:40%;
+    margin-top:5px;
+}
+.menu{
+    width:300px;
+    height: 200px;
+    margin:20px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow:0px 0px 9px black;
+    font-size:30px;
+    text-transform:uppercase;
+    text-decoration: solid;
+    
+}
+a{
+    text-decoration:none;
+    font-family:'philo';
+}
+#acceuil{
+    background-image: url(img/acceuil1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#identification{
+    background-image: url(img/Morel-informatique.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#partenaire{
+    background-image: url(img/Partanaires.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#apropos{
+    background-image: url(img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white; 
+}
+h3 {
+    background-color: rgba(128, 128, 128, 0.507);
+    width:300px;
+    height: 130px;
+    margin-top: 0px;
+    padding-top: 70px;
+    border-radius:10px;
+}
+@media(max-width:576px){
+    body{
+        width: auto;
+        
+        padding-right:600px;
+
+    }
+    .menu{
+        display: block;
+        margin-left:100px;
+    }}
+</style>
+<body>
+    <img src="img/logoecole.jpg" id="logo"></img>
+    <div>
+        <a href="acceuil.php" id="acceuil" class="menu"><h3  > Acceuil</h3></a>
+    
+    
+        <a  href="partenaire.php" id="partenaire" class="menu" ><h3 >Partenaire</h3></a>
+    
+    
+        <a  href="apropos.php" id="apropos" class="menu"><h3 >A propos de l'ENSA</h3></a>
+    
+    
+        <a  href="esp.php" id="identification" class="menu"><h3 >Identification</h3></a>
+    </div>
+   
+</body>
+</html>

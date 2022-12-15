@@ -1,0 +1,72 @@
+@font-face
+ {
+    font-family:'philo';
+    src: url('polices-1/Philosopher-Regular.ttf');
+}
+body{
+    background-color:#d9dfe4;
+    background-repeat:no-repeat;
+}
+#logo{
+    background-color: none;
+    padding-right: 130px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width:500px;
+    height: 170px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:40%;
+    margin-top:5px;
+}
+.menu{
+    width:300px;
+    height: 200px;
+    margin:20px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow:0px 0px 9px black;
+    font-size:30px;
+    text-transform:uppercase;
+    text-decoration: solid;
+    
+}
+a{
+    text-decoration:none;
+    font-family:'philo';
+}
+#acceuil{
+    background-image: url(img/acceuil1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#identification{
+    background-image: url(img/logins.pdf);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#partenaire{
+    background-image: url(img/Partanaires.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#apropos{
+    background-image: url(img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white; 
+}
+h3 {
+    background-color: rgba(128, 128, 128, 0.507);
+    width:300px;
+    height: 130px;
+    margin-top: 0px;
+    padding-top: 70px;
+    border-radius:10px;
+}

@@ -1,0 +1,87 @@
+body {
+    width: 99%;
+    font-family: sans-serif;
+    background-color: white;
+}
+#ecole {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 350px;
+    height: 150px;
+    
+}
+article {
+    background-color: white;
+    
+    height: 550px;
+    margin-top: 5px;
+    padding-left: 200px;
+    padding-top: 75px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article div {
+    width: 200px;
+    height: 200px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 9px black;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+article .g:hover {
+    transform: scale(1.03);
+}
+
+article a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+article img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+#gi {
+    background-image: url(img/inf.jpg);
+    background-size: cover;
+}
+#gm {
+    background-image: url(img/meca.jpg);
+    background-size: cover;
+}
+#ge {
+    background-image: url(img/elec.jpg);
+    background-size: cover;
+}
+#gind {
+    background-image: url(img/indus.jpg);
+    background-size: cover;
+}
+#rst {
+    background-image: url(img/reseau.jpg);
+    background-size: cover;
+}
+.grey {
+    background-color: rgba(128, 128, 128, 0.589);
+    padding-top: 20px;
+    height: 178px;
+}
+@media(max-width:576px){
+    body{
+        width: auto;
+        padding-left: 25px;
+        margin-left:10px;
+        margin-right:5px;
+
+    }
+    nav li{
+        display: block;
+    }
+
